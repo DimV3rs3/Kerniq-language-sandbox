@@ -1,0 +1,13 @@
+[plugin]
+plugin_id = "plugin_lang_sandbox"
+name = "Language sandbox"
+version = "1.0.0"
+api_version = "1.0"
+manifest_version = "1.0"
+entry_point = "main.PluginImpl"
+description = "Private Node.js and .NET for the workspace shell. Host copies are not used."
+author = "Kerniq"
+license = "MIT"
+
+[capabilities]
+tools = false
